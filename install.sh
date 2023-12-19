@@ -59,6 +59,9 @@ sudo apt install -y libconfig-dev libdbus-1-dev libegl-dev libev-dev libgl-dev l
 #Building alacritty
 sudo apt install -y cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
 
+#Building dmenu
+sudo apt install -y libx11-dev libxinerama-dev libxft-dev libfreetype6-dev
+
 #Docs
 sudo apt install -y asciidoc 
 
