@@ -3,7 +3,7 @@
 # Install packages after installing base Debian with no GUI
 
 #Tools
-sudo apt install -y smartmontools lm-sensors htop p7zip p7zip-full zip unzip
+sudo apt install -y smartmontools lm-sensors htop p7zip p7zip-full zip unzip ncdu
 
 # xorg
 sudo apt install -y xorg
@@ -24,7 +24,7 @@ sudo apt install -y neofetch imagemagick cmatrix
 sudo apt install -y scrot feh gimp gnome-icon-theme gnome-themes-extra gtk2-engines gtk2-engines-pixbuf gtk2-engines-murrine materia-gtk-theme papirus-icon-theme lxappearance
 
 # Browser and Mail client Installation (eg. chromium)
-sudo apt install -y firefox-esr
+sudo apt install -y firefox-esr libavcodec-extra
 
 # Aditional packages
 sudo apt install -y zathura zathura-djvu zathura-ps ufw firejail dosbox
@@ -33,10 +33,10 @@ sudo apt install -y zathura zathura-djvu zathura-ps ufw firejail dosbox
 sudo apt install -y fonts-noto xfonts-terminus fonts-roboto fonts-font-awesome
 
 #Music and video packages
-sudo apt install -y sox libsox-fmt-all pipewire-audio cmus moc 
+sudo apt install -y sox libsox-fmt-all pipewire-audio cmus moc mpv vlc
 
 #Torrents
-sudo apt install -y qbittorrent
+sudo apt install -y qbittorrent xtrlock
 
 
 #Nvidia
